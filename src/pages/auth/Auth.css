@@ -1,0 +1,73 @@
+.form-container {
+    display: flex;
+    background-color: bisque;
+    width: 90%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://w0.peakpx.com/wallpaper/467/344/HD-wallpaper-building-moon-night-vector-art-red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+}
+.login-form  {
+    background-color: rgba(107, 114, 142,.6);
+    padding: 3rem 2rem;
+    width: 300px;
+    border-radius: 2rem;
+    color: wheat;
+    backdrop-filter: blur(20px);
+    border: 4px solid wheat;
+    box-shadow:0 0 150px wheat;
+    
+}
+
+.RnL-btn {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+#email,#password,#userName {
+    border-radius: 6px;
+    height: 2.5rem;
+    width: 100%;
+    border: none;
+    background-color: #2D4263;
+    color:aquamarine;
+    box-shadow: inset;
+    font-size: 1rem;
+    padding-inline: 1rem;
+}
+#email,#password,#userName:focus {
+    outline: none;
+}
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.btn{
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    background-color: #2D4263;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.login-btn > .btn:hover{
+    transition: 150ms ease-in-out;
+    background-color: aqua;
+    color: #2D4263;
+}
+
+.toggle{
+    background: none;
+}
+.toggle:hover {
+    background-color: transparent;
+}
